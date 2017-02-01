@@ -1,0 +1,54 @@
+Three major CPT  defined in unbook-settings plugin
+
+Unbook Course
+=============
+
+andles by a page in theme single-unbook_course.php
+to show lessons in that course
+
+Unbook Lesson
+==============
+-> assign to course
+meta key-> course assigned to
+meta value course ID
+
+Handles by a page in theme single-unbook_lesson.php
+to show lesson content and questions one by one if any assigned. otherwise only content of  lesson.
+
+Unbook question
+=================
+->assign to lesson
+ meta key -> question assigned to 
+ meta value lesson ID
+
+ Handles by a page in theme single-unbook_lesson.php
+
+for Multple choice questions
+-----------------------------
+
+all answers by students are save in post meta , meta key as user id and meta value as his reponse.
+
+for subjective questions
+-------------------------
+answers are save as user meta with meta key as question ID and meta value as users response.
+
+
+
+
+
+Payment Gateway
+================
+
+payments initiates in  single course page
+goes to page-payment ->payu.in-> page-payement-succes or page-payment-failure
+
+
+OTP
+===
+otp function integrated in clean ogin plugin itself
+
+
+
+
+
+
